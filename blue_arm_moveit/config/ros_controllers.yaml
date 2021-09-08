@@ -227,3 +227,33 @@ joint_group_position_controller:
     - joint_5
     - joint_6
     - joint_7
+
+  /gazebo_ros_control:
+    pid_gains:
+      joint_1:
+        p: 1000
+        d: 50
+        i: 0
+      joint_2:
+        p: 1000
+        d: 50
+        i: 0
+      joint_3:
+        p: 800
+        d: 40
+        i: 0
+      joint_4:
+        p: 800
+        d: 40
+        i: 0
+      joint_5:
+        p: 500
+        d: 25
+        i: 0
+      joint_6:
+        p: 500
+        d: 25
+        i: 0
+      joint_7:
+        p: 500
+        d: 25
